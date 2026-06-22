@@ -1,0 +1,11 @@
+{
+  "name": "restaurant-queue-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Restaurant queue app with QR entry, live queue, and customer call alerts.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "trust": "powershell -ExecutionPolicy Bypass -File scripts/create-local-certs.ps1"
+  }
+}
